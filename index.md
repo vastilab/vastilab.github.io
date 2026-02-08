@@ -26,3 +26,5 @@ title: Vast Intelligence Lab
 We welcome collaborations and partnerships. Please feel free to reach out to **Wenhao Wang** at **wangwenhao@vastilab.com**.
 
 ### Welcome to Sydney
+
+![Sydney](https://raw.githubusercontent.com/vastilab/vastilab.github.io/main/images/sydney_1.JPG)
