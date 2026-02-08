@@ -587,3 +587,19 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 14px; /* 标题和网格的距离 */
 }
 
+.people-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 214px);
+  gap: 28px 24px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px){
+  .people-grid{ grid-template-columns: repeat(2, 214px); }
+}
+
+@media screen and (max-width: 480px){
+  .people-grid{ grid-template-columns: repeat(1, 214px); }
+}
+
+
