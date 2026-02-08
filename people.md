@@ -31,7 +31,7 @@ permalink: /people/
       <p class="list-post-title">
         {% if profile.avatar %}
             {% if profile.position == "pi" %}
-                <a href="{{ site.baseurl }}{{ profile.url }}"><img width="571" height="428" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
+                <a href="{{ site.baseurl }}{{ profile.url }}"><img width="285" height="214" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
             {% else %}
                 <a href="{{ site.baseurl }}{{ profile.url }}"><img width="130" height="166" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
             {% endif %}
