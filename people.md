@@ -6,6 +6,7 @@ permalink: /people/
 {% assign people_sorted = site.people | sort: 'joined' %}
 {% assign people_array = "pi|gradstudent|alumni" | split: "|" %}
 
+<div class="people-sections">
 {% for item in people_array %}
 <section class="people-section people-section-{{ item }}">
 
@@ -47,4 +48,5 @@ permalink: /people/
 
 </section>
 {% endfor %}
+</div>
 
