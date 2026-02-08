@@ -29,7 +29,7 @@ permalink: /people/
     {% assign profile_url = profile.url | relative_url %}
 
     {% if profile.avatar %}
-      {% assign avatar_src = '/images/people/' | append: profile.avatar | relative_url %}
+      {% assign avatar_src = profile.avatar | prepend: '/images/people/' | relative_url %}
     {% else %}
       {% assign avatar_src = 'https://www.gravatar.com/avatar/?d=mp&s=400' %}
     {% endif %}
