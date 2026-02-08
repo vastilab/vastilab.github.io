@@ -531,3 +531,41 @@ tbody tr:nth-child(odd) th {
   border: none;
   background-color: #FFF;
 }
+
+
+/* 3列网格：一排3个 */
+.people-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px 24px;   /* 行间距、列间距 */
+  align-items: start;
+}
+
+.list-item-people{
+  text-align: center;
+}
+
+/* 固定 214×214 的头像容器 */
+.avatar-box{
+  width: 214px;
+  height: 214px;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  /* 可选：让方块更“卡片化”一点 */
+  background: #f5f5f5;
+  border-radius: 12px;
+}
+
+/* 关键：让图片在方块里“等比缩放 + 最长边贴到 214 + 居中” */
+.avatar-img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
