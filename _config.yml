@@ -9,8 +9,8 @@ description:        "this is a page for Vast Intelligence Lab, we are xxxx."
 
 
 # URL
-url:                http://vastilab.com
-baseurl:
+url: https://vastilab.com
+baseurl: ""
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
