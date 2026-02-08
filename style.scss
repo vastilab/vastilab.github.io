@@ -572,3 +572,18 @@ tbody tr:nth-child(odd) th {
 @media (max-width: 700px){ .people-grid{ grid-template-columns: repeat(2, 214px); } } 
 @media (max-width: 480px){ .people-grid{ grid-template-columns: repeat(1, 214px); } }
 
+/* section spacing */
+.people-section{
+  margin-bottom: 56px;   /* 你想要的间距，自己调大/调小 */
+}
+
+.people-section:last-child{
+  margin-bottom: 0;
+}
+
+/* 可选：标题和网格之间也拉开一点 */
+.people-section .pos_header{
+  margin-bottom: 14px;
+}
+
+
