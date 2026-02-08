@@ -572,18 +572,18 @@ tbody tr:nth-child(odd) th {
 @media (max-width: 700px){ .people-grid{ grid-template-columns: repeat(2, 214px); } } 
 @media (max-width: 480px){ .people-grid{ grid-template-columns: repeat(1, 214px); } }
 
-/* section spacing */
+
+.people-sections{
+  display: flex;
+  flex-direction: column;
+  gap: 56px;          /* Founder / Team Member / Alumni 之间的距离 */
+}
+
 .people-section{
-  margin-bottom: 56px;   /* 你想要的间距，自己调大/调小 */
+  margin: 0;          /* 用 gap 控制间距，就别用 margin-bottom 了 */
 }
 
-.people-section:last-child{
-  margin-bottom: 0;
-}
-
-/* 可选：标题和网格之间也拉开一点 */
 .people-section .pos_header{
-  margin-bottom: 14px;
+  margin-bottom: 14px; /* 标题和网格的距离 */
 }
-
 
