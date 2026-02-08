@@ -27,4 +27,4 @@ We welcome collaborations and partnerships. Please feel free to reach out to **W
 
 ### Welcome to Sydney
 
-![Sydney](https://raw.githubusercontent.com/vastilab/vastilab.github.io/main/images/sydney_1.JPG)
+![Sydney](https://raw.githubusercontent.com/vastilab/vastilab.github.io/main/images/sydney_2.jpeg)
