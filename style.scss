@@ -602,4 +602,11 @@ tbody tr:nth-child(odd) th {
   .people-grid{ grid-template-columns: repeat(1, 214px); }
 }
 
+.navbar .container{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.navbar .navbar-nav.navbar-right{
+  margin-right: 0;
+}
 
