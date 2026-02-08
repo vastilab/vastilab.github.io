@@ -7,7 +7,6 @@ title: Vast Intelligence Lab
 
 
 ### **Lab News**
-
 <div class="content list">
   {% for post in site.posts %}
     {% if post.categories contains 'blog' %}
@@ -19,8 +18,6 @@ title: Vast Intelligence Lab
     {% endif %}
   {% endfor %}
 </div>
-
-<br>
 
 ### Contact Us
 We welcome collaborations and partnerships. Please feel free to reach out to **Wenhao Wang** at **wangwenhao@vastilab.com**.
