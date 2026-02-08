@@ -1,9 +1,6 @@
 ---
-
 name: Wenhao Wang
-
-position: pi 
-
-avatar: wenhao_wang.png
-
+position: pi
+joined: 2026-02-08
+avatar: wenhao_wang.jpg
 ---
