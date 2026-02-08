@@ -2,9 +2,9 @@
 title: Vast Intelligence Lab
 ---
 
-
+<div class="home-justify">
 **Vast Intelligence Lab (VIL)** is an independent research laboratory founded by Wenhao Wang in Sydney, Australia. The lab is dedicated to addressing real-world research challenges and disseminating its findings through top-tier conferences and journals. VIL currently comprises a team of around 10 members, with research interests spanning (multimodal) large language models, agentic AI, visual generation, AI safety, and reinforcement learning.
-
+</div>
 
 ### **Lab News**
 <div class="content list">
@@ -22,7 +22,9 @@ title: Vast Intelligence Lab
 <br>
 
 ### Contact Us
+<div class="home-justify">
 We welcome collaborations and partnerships. Please feel free to reach out to **Wenhao Wang** at **wangwenhao@vastilab.com**.
+</div>
 
 ### Welcome to Sydney
 
