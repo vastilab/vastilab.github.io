@@ -3,13 +3,13 @@
 # # # # # # # #
 
 # Basic
-name:               "ReLER lab"
-title:              "as called as Recognition, Learning and Reasoning Lab"
-description:        "this is a page for ReLER lab, we are xxxx."
+name:               "Vast Intelligence Lab"
+title:              "Vast Intelligence Lab"
+description:        "this is a page for Vast Intelligence Lab, we are xxxx."
 
 
 # URL
-url:                http://reler.net
+url:                http://vastilab.com
 baseurl:
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
@@ -24,12 +24,12 @@ highlighter:        rouge
 nav:
   - name:           "home"
     href:           "/"
-  - name:           "publications"
-    href:           "/publication"
   - name:           "people"
     href:           "/people"
-  - name:           "resources"
-    href:           "/resources"
+  - name:           "publications"
+    href:           "/publication"
+  #- name:           "resources"
+  #  href:           "/resources"
   #- name:           "news"
     #href:           "/news"
 
