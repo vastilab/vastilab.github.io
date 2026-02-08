@@ -609,4 +609,9 @@ tbody tr:nth-child(odd) th {
 .navbar .navbar-nav.navbar-right{
   margin-right: 0;
 }
+.home-justify{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
 
