@@ -25,6 +25,3 @@ title: Vast Intelligence Lab
 ### Contact Us
 We welcome collaborations and partnerships. Please feel free to reach out to **Wenhao Wang** at **wangwenhao@vastilab.com**.
 
-
-
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=0zPsN6b8Sd_ERtYO_gCpJNe7WvPmHPL3EtgMEkAA9kQ&cl=ffffff&w=a"></script>
