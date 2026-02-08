@@ -25,3 +25,4 @@ title: Vast Intelligence Lab
 ### Contact Us
 We welcome collaborations and partnerships. Please feel free to reach out to **Wenhao Wang** at **wangwenhao@vastilab.com**.
 
+### Welcome to Sydney
