@@ -3,7 +3,7 @@ title: Vast Intelligence Lab
 ---
 
 
-**Vast Intelligence Lab (VIL)** is an independent research laboratory founded by Wenhao Wang. Based in Australia, VIL operates under a registered business name (ABN: 40 248 833 263). The lab is dedicated to addressing frontier research challenges and disseminating its findings through top-tier conferences and journals. VIL currently comprises a team of around 10 members, with research interests spanning (multimodal) large language models, agentic AI, visual generation, reinforcement learning, and AI safety.
+**Vast Intelligence Lab (VIL)** is an independent research laboratory founded by Wenhao Wang in Sydney, Australia. The lab is dedicated to addressing frontier research challenges and disseminating its findings through top-tier conferences and journals. VIL currently comprises a team of around 10 members, with research interests spanning (multimodal) large language models, agentic AI, visual generation, reinforcement learning, and AI safety.
 
 
 ### **Lab News**
