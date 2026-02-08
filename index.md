@@ -22,7 +22,7 @@ title: Vast Intelligence Lab
 
 ### Contact Us
 
-We welcome collaborations and partnerships. Please feel free to email us at wangwenhao@vastilab.com.
+We welcome collaborations and partnerships. Please feel free to email us at **wangwenhao@vastilab.com**.
 
 
 ### Welcome to Sydney
