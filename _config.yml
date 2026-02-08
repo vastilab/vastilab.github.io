@@ -61,5 +61,5 @@ defaults:
 
 collections:
   people:
-    output: true
+    output: false
     permalink: /people/:title/index.html
