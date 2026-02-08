@@ -18,29 +18,44 @@ permalink: /people/
 
 <div class="content list people">
   {% for profile in people_sorted %}
-    
+
     {% assign is_pi = false %}
     {% if profile.position contains 'pi' %}
       {% assign is_pi = true %}
     {% endif %}
 
     {% if (group == 'pi' and is_pi == true) or (group == 'team' and is_pi == false) %}
-    
+
     <div class="list-item-people">
       <p class="list-post-title">
         {% if profile.avatar %}
-            {% if is_pi %}
-                <a href="{{ site.baseurl }}{{ profile.url }}"><img width="160" height="204" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
-            {% else %}
-                <a href="{{ site.baseurl }}{{ profile.url }}"><img width="130" height="166" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
-            {% endif %}
+          {% if is_pi %}
+            <a href="{{ profile.url | relative_url }}">
+              <img width="160" height="204"
+                   src="{{ '/images/people/' | append: profile.avatar | relative_url }}"
+                   alt="{{ profile.name }}">
+            </a>
+          {% else %}
+            <a href="{{ profile.url | relative_url }}">
+              <img width="130" height="166"
+                   src="{{ '/images/people/' | append: profile.avatar | relative_url }}"
+                   alt="{{ profile.name }}">
+            </a>
+          {% endif %}
         {% else %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img width="200" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
+          <a href="{{ profile.url | relative_url }}">
+            <img width="200"
+                 src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"
+                 alt="{{ profile.name }}">
+          </a>
         {% endif %}
-        <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+
+        <a class="name" href="{{ profile.url | relative_url }}">{{ profile.name }}</a>
       </p>
-    </div>    
+    </div>
+
     {% endif %}
   {% endfor %}
 </div>
+
 {% endfor %}
