@@ -15,6 +15,7 @@ permalink: /people/
       <h3>Founder</h3>
     {% elsif item == 'gradstudent' %}
       <h3>Team Member</h3>
+    <p class="people-note">Sorted alphabetically by first name.</p>
     {% elsif item == 'alumni' %}
       <h3>Alumni</h3>
     {% endif %}
