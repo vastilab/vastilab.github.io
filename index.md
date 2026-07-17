@@ -2,7 +2,7 @@
 title: Vast Intelligence Lab
 ---
 
-**VastiLab** is an independent research laboratory founded by Wenhao Wang in Sydney, Australia. The lab is dedicated to addressing real-world research challenges and disseminating its findings through top-tier conferences and journals. VastiLab currently comprises a team of around 10 members, with research interests spanning (multimodal) large language models, agentic AI, visual generation, AI safety, and reinforcement learning.
+**Vast Intelligence Lab (VastiLab)** is an independent research laboratory founded by Wenhao Wang in Sydney, Australia. The lab is dedicated to addressing real-world research challenges and disseminating its findings through top-tier conferences and journals. VastiLab currently comprises a team of around 10 members, with research interests spanning (multimodal) large language models, agentic AI, visual generation, AI safety, and reinforcement learning.
 
 
 ### **Lab News**
