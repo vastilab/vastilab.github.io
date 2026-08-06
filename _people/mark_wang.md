@@ -1,6 +1,6 @@
 ---
-name: Jian Wang
+name: Mark Wang
 position: advisor
 joined: 2026-02-08
-avatar: jian_wang.jpg
+avatar: mark_wang.jpg
 ---

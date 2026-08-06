@@ -4,7 +4,7 @@ permalink: /people/
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign people_array = "pi|gradstudent|alumni" | split: "|" %}
+{% assign people_array = "pi|advisor|gradstudent|alumni" | split: "|" %}
 
 <div class="people-sections">
 {% for item in people_array %}
@@ -13,6 +13,8 @@ permalink: /people/
   <div class="pos_header">
     {% if item == 'pi' %}
       <h3>Founder</h3>
+    {% elsif item == 'advisor' %}
+      <h3>Academic Advisor</h3>
     {% elsif item == 'gradstudent' %}
       <h3>Team Member</h3>
     <p class="people-note">Sorted alphabetically by first name.</p>
@@ -50,4 +52,3 @@ permalink: /people/
 </section>
 {% endfor %}
 </div>
-

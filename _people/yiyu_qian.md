@@ -1,6 +1,6 @@
 ---
 name: Yiyu Qian
-position: gradstudent
+position: alumni
 joined: 2026-02-08
 avatar: yiyu_qian.jpg
 ---
