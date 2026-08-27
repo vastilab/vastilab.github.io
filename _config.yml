@@ -5,7 +5,7 @@
 # Basic
 name:               "Vast Intelligence Lab"
 title:              "Vast Intelligence Lab"
-description:        "this is a page for Vast Intelligence Lab, we are xxxx."
+description:        "VastiLab builds open-source, audit-native AI research tools that help researchers move from literature to ideas, drafts, and pre-submission review."
 
 
 # URL
@@ -28,6 +28,8 @@ nav:
     href:           "/people"
   - name:           "publications"
     href:           "/publication"
+  - name:           "projects"
+    href:           "/projects"
   #- name:           "resources"
   #  href:           "/resources"
   #- name:           "news"
